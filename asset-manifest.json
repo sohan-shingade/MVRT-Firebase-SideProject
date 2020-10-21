@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/MVRT-Firebase-SideProject/static/css/main.a72963eb.chunk.css",
+    "main.js": "/MVRT-Firebase-SideProject/static/js/main.1c23435d.chunk.js",
+    "main.js.map": "/MVRT-Firebase-SideProject/static/js/main.1c23435d.chunk.js.map",
+    "runtime-main.js": "/MVRT-Firebase-SideProject/static/js/runtime-main.a4bef35b.js",
+    "runtime-main.js.map": "/MVRT-Firebase-SideProject/static/js/runtime-main.a4bef35b.js.map",
+    "static/js/2.e2621ca1.chunk.js": "/MVRT-Firebase-SideProject/static/js/2.e2621ca1.chunk.js",
+    "static/js/2.e2621ca1.chunk.js.map": "/MVRT-Firebase-SideProject/static/js/2.e2621ca1.chunk.js.map",
+    "index.html": "/MVRT-Firebase-SideProject/index.html",
+    "precache-manifest.511adaaf231504b4b4a91691e5d26f98.js": "/MVRT-Firebase-SideProject/precache-manifest.511adaaf231504b4b4a91691e5d26f98.js",
+    "service-worker.js": "/MVRT-Firebase-SideProject/service-worker.js",
+    "static/css/main.a72963eb.chunk.css.map": "/MVRT-Firebase-SideProject/static/css/main.a72963eb.chunk.css.map",
+    "static/js/2.e2621ca1.chunk.js.LICENSE.txt": "/MVRT-Firebase-SideProject/static/js/2.e2621ca1.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/MVRT-Firebase-SideProject/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a4bef35b.js",
+    "static/js/2.e2621ca1.chunk.js",
+    "static/css/main.a72963eb.chunk.css",
+    "static/js/main.1c23435d.chunk.js"
+  ]
+}
