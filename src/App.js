@@ -1,26 +1,42 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import { getData } from "./Firebase";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function List(props) {
+  const data = props.data;
+  const listItems = data.map((doc) => (
+    <li className="List">
+      <h1>{doc}</h1>
+    </li>
+  ));
+  return <ul>{listItems}</ul>;
+}
+
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      docs: [],
+    };
+  }
+  render() {
+    this.getDataFromFirebase();
+    return (
+      <div className="App">
+        <List data={this.state.docs} />
+      </div>
+    );
+  }
+
+  getDataFromFirebase() {
+    getData().then((arr) => {
+      console.log(arr);
+      this.setState({
+        docs: arr,
+      });
+    });
+  }
 }
 
 export default App;
